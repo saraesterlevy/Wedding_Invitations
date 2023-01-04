@@ -1,0 +1,69 @@
+body,
+html {
+    background: url('../rsvp/Villa-Woodbine.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 200px;
+    font-weight: 300;
+    text-align:center;
+    padding-bottom: 200px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    border-bottom: solid 1px white;
+}
+
+/*Label texts*/
+.container {
+    color: white;
+    font-family: 'Ruthie', cursive;
+    line-height: 30px;
+    font-style: italic;
+    font-size: 300%;
+    /*margin-top: 500px;*/
+    /*margin-left: 900px;*/
+}
+
+
+
+/*text-box size*/
+.container input {
+    height: 80px;
+    width: 20%;
+    border-radius: 7px;
+    outline: none;
+    padding: 0 200px;
+    margin-left: 500px;
+}
+
+input[type="text"] {
+    width: 200px;
+    font-size:30px;
+}
+
+
+/* transparent box*/
+.container{
+    width: 100%;
+    max-width: 2000px;
+    max-height: 9000px;
+    background: rgba(0, 0, 0, 0.5);
+    padding:300px;
+    margin: 448px;
+    border-radius: 1300px;
+    box-shadow: inset -2px 2px 2px white ;
+}
+
+button {
+    font-family: 'Ruthie', cursive;
+    margin-top: 50px;
+}
+
+
+
+
+

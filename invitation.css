@@ -1,0 +1,141 @@
+body,
+html {
+    background: url('../invitation/inviteEdit2.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+
+body {
+     margin-top: 4000px;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 800px 800px;
+}
+
+.container{
+    width: 100%;
+    max-width: 550px;
+    background: rgba(0, 0, 0, 0.5);
+    padding:28px;
+    margin: 0 448px;
+    border-radius: 10px;
+    box-shadow: inset -2px 2px 2px white ;
+}
+
+section {
+    margin-right: 1100px;
+}
+
+
+
+body {
+    font-size: 9px;
+}
+
+/*h1 {*/
+/*    font-size: 6rem;*/
+/*    color: white;*/
+/*    background-color: #0E3041;*/
+/*    text-align: center;*/
+/*}*/
+
+/*h2 {*/
+/*    font-size: 6rem;*/
+/*    color: white;*/
+/*    background-color: #0E3041;*/
+/*    text-align: center;*/
+/*}*/
+
+.text_title {
+    font-size: 60px;
+    color: white;
+    font-family: 'Aaargh normal', cursive;
+}
+
+.text_name {
+    font-size: 80px;
+    font-family: 'Ruthie', cursive;
+}
+
+.text_date {
+    font-size: 60px;
+    font-family: 'Aaargh normal', cursive;
+
+}
+
+/*h1,h2 {*/
+/*    display: inline-block;*/
+/*}*/
+
+/*h2 {*/
+/*    font-family:Aaargh normal, cursive;*/
+/*}*/
+
+/*.text_title {*/
+/*    font-size:100px;*/
+/*    margin-top: 2000px;*/
+/*}*/
+
+/*.text_date {*/
+/*    font-size: 100px;*/
+/*    margin-top: 900px;*/
+/*}*/
+
+/*.address_text {*/
+/*    font-size: 100px;*/
+/*    margin-top: 900px;*/
+/*}*/
+
+/*.button-image {*/
+/*    width: 1000px;*/
+/*    height: 1000px;*/
+/*    transition: all 0.2s;*/
+/*    animation: fade-in 1s;*/
+/*}*/
+
+
+
+img {
+    width: 300px;
+    height: 300px;
+    margin-left: 40px;
+
+    box-shadow:0 6px 20px rgba(255, 255, 255, 0.5);
+}
+
+.button-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 10px rgb(255, 255, 255);
+}
+
+.row-text-center {
+
+}
+
+/*.card {*/
+/*    height:320px;*S/
+/*    width: 340px;*/
+/*    background-img: ;*/
+/*    margin-bottom: 20px;*/
+/*    transition: all 0.2s;*/
+/*    animation: fade-in 1s;*/
+/*}*/
+
+/*.card {*/
+/*    position: absolute;*/
+/*    top: 50%;*/
+/*}*/
+
+/*.card:hover {*/
+/*    transform: scale(1.05);*/
+/*    color: yellow;*/
+/*    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);*/
+/*}*/
+
