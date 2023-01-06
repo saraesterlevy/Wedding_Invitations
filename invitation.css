@@ -1,6 +1,6 @@
 body,
 html {
-    background: url('../Wedding_Invitations/inviteEdit2.jpg') no-repeat center center fixed;
+    background: url('../Wedding_Invitations/rsvp/Villa-Woodbine2.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -14,29 +14,14 @@ body {
 }
 
 
-.container {
-    display: grid;
-    grid-template-columns: 800px 800px;
-}
-
 .container{
     width: 100%;
     max-width: 550px;
     background: rgba(0, 0, 0, 0.5);
     padding:28px;
-    margin: 0 448px;
+    margin-top: 300px;
     border-radius: 10px;
-    box-shadow: inset -2px 2px 2px white ;
-}
-
-section {
-    margin-right: 1100px;
-}
-
-
-
-body {
-    font-size: 9px;
+    box-shadow: inset -2px 2px 2px white;
 }
 
 /*h1 {*/
@@ -60,7 +45,7 @@ body {
 }
 
 .text_name {
-    font-size: 80px;
+    font-size: 100px;
     font-family: 'Ruthie', cursive;
 }
 
@@ -113,10 +98,6 @@ img {
 .button-image:hover {
     transform: scale(1.05);
     box-shadow: 0 5px 10px rgb(255, 255, 255);
-}
-
-.row-text-center {
-
 }
 
 /*.card {*/

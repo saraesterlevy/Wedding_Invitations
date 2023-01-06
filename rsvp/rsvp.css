@@ -1,6 +1,6 @@
 body,
 html {
-    background: url('../rsvp/Villa-Woodbine.jpg') no-repeat center center fixed;
+    background: url('../rsvp/Villa-woodbine4.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -8,12 +8,11 @@ html {
 }
 
 h1 {
-    font-size: 200px;
+    font-size: 300px;
     font-weight: 300;
-    text-align:center;
-    padding-bottom: 200px;
+    text-align: center;
+    padding-bottom: 20px;
     color: white;
-    text-shadow: 2px 2px 2px black;
     border-bottom: solid 1px white;
 }
 
@@ -21,49 +20,62 @@ h1 {
 .container {
     color: white;
     font-family: 'Ruthie', cursive;
-    line-height: 30px;
+    line-height: 300px;
     font-style: italic;
-    font-size: 300%;
-    /*margin-top: 500px;*/
-    /*margin-left: 900px;*/
-}
+    font-size: 200px;
 
+}
 
 
 /*text-box size*/
 .container input {
-    height: 80px;
-    width: 20%;
-    border-radius: 7px;
+    border-radius: 15px;
     outline: none;
-    padding: 0 200px;
-    margin-left: 500px;
+    padding: 65px;
 }
 
+
 input[type="text"] {
-    width: 200px;
-    font-size:30px;
+    width: 1300px;
+    height: 25px;
+    font-size:100px;
 }
 
 
 /* transparent box*/
-.container{
-    width: 100%;
-    max-width: 2000px;
-    max-height: 9000px;
+.container {
+    max-width: 2800px;
+    max-height: 9800px;
+    margin-top: 800px;
+    margin-left: 3000px;
     background: rgba(0, 0, 0, 0.5);
-    padding:300px;
-    margin: 448px;
-    border-radius: 1300px;
-    box-shadow: inset -2px 2px 2px white ;
+    padding: 600px;
+    border-radius: 1100px;
+    box-shadow: inset -2px 2px 2px white;
 }
 
 button {
     font-family: 'Ruthie', cursive;
-    margin-top: 50px;
+
+
+}
+
+button {
+    font-size: 100px;
+
+}
+
+@media(max-width: 600px) {
+    .container{
+        min-width:280px;
+    }
+}
+
+.rows {
+    margin-left: 600px
 }
 
 
-
-
-
+.container::-webkit-scrollbar{
+    width:0;
+}
