@@ -55,27 +55,27 @@ input[type="text"] {
 }
 
 button {
+    font-size: 180px;
+    margin-left: 970px;
     font-family: 'Ruthie', cursive;
 
-
 }
 
-button {
-    font-size: 100px;
-
-}
-
-@media(max-width: 600px) {
-    .container{
-        min-width:280px;
-    }
-}
+/*@media only screen and (max-width: 540px) {*/
+/*    .container{*/
+/*        visibility: visible;*/
+/*    }*/
+/*    .m {*/
+/*        visibility: visible;*/
+/*    }*/
+/*    .Guest {*/
+/*        visibility: visible;*/
+/*    }*/
+/*    .Allergies {*/
+/*        visibility: visible;*/
+/*    }*/
+/*}*/
 
 .rows {
-    margin-left: 600px
-}
-
-
-.container::-webkit-scrollbar{
-    width:0;
+    margin-left: 400px
 }
