@@ -1,22 +1,10 @@
-body,
-html {
-    background: url('../Wedding_Invitations/rsvp/Villa-Woodbine2.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-}
-
-
 
 .container{
     background: rgba(0, 0, 0, 0.5);
     padding:287px;
-    margin-top: 700px;
-    margin-left: 3650px;
     border-radius: 10px;
     box-shadow: inset -2px 2px 2px white;
+
 }
 
 .col {
@@ -32,12 +20,14 @@ html {
 }
 
 .text_name {
-    font-size: 200px;
+    font-size: 160px;
+    color: white;
     font-family: 'Ruthie', cursive;
 }
 
 .text_date {
     font-size: 120px;
+    color:white;
     font-family: 'Ruthie', cursive;
 
 }
@@ -49,19 +39,26 @@ img {
     margin-top: 50px;
 }
 
-.image-container:hover {
+.icon-image-container:hover {
     transform: scale(1.05);
     box-shadow: 0 5px 10px rgb(255, 255, 255);
 }
 
 
-.image-container {
+.icon-image-container {
     position:relative;
     background-color: #F5E9BE;
     box-shadow:0 6px 20px rgba(255, 255, 255, 0.5);
     border-radius: 300px;
-    margin-right: 40px
 }
+
+
+@media (max-width:5000px) {
+     img {
+        width:50%;
+    }
+}
+
 
 .overlay {
     position: center;
@@ -71,3 +68,46 @@ img {
     right: 0;
     background: rgba(0, 0, 0, 0);
 }
+
+
+@media only screen and (max-width: 4000px) {
+    .text_title {
+        color: blue;
+        font-size: 5rem;
+        margin: auto;
+        width: 100%;
+    }
+
+    /*.text_name {*/
+    /*    font-size: 20rem;*/
+    /*    margin: auto;*/
+    /*    width: 100%*/
+    /*}*/
+
+    /*.text_date {*/
+    /*    font-size: 20px;*/
+    /*}*/
+}
+
+/*.img {*/
+/*    background-image: url(../Wedding_Invitations/rsvp/Villa-Woodbine2.jpg);*/
+/*}*/
+
+/* @media*/
+/*    (-webkit-min-device-pixel-ratio: 2),*/
+/*    (min-resolution: 192dpi) {*/
+/*     .img {*/
+/*         background-image: url(../Wedding_Invitations/rsvp/Villa-Woodbine2.jpg)*/
+/*     }*/
+/* }*/
+
+
+/*body,*/
+/*html {*/
+/*    background: url('../Wedding_Invitations/rsvp/Villa-Woodbine2.jpg') no-repeat center center fixed;*/
+/*    -webkit-background-size: cover;*/
+/*    -moz-background-size: cover;*/
+/*    -o-background-size: cover;*/
+/*    background-size: cover;*/
+/*    margin:auto;*/
+/*}*/
