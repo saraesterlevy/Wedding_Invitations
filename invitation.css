@@ -1,52 +1,246 @@
-body,
-html {
-    background: url('../Wedding_Invitations/rsvp/Villa-Woodbine2.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+/*Desktop viewport*/
 
+/*.background-image-container {*/
+/*.z-index: 2;*/
+/*}*/
+
+/*.background-image-container {*/
+/*    margin-left: 2800px;*/
+/*}*/
+/*.container{*/
+/*    background: rgba(0, 0, 0, 0.5);*/
+/*    padding:287px;*/
+/*    margin-top: 10px;*/
+/*    margin-left: 3100px;*/
+/*    border-radius: 10px;*/
+/*    box-shadow: inset -2px 2px 2px white;*/
+/*    position: relative;*/
+/*    bottom:6900px;*/
+/*}*/
+
+/*.col {*/
+/*    text-align:center;*/
+/*    line-height: 220px;*/
+
+/*}*/
+
+/*.text_title {*/
+/*    font-size: 200px;*/
+/*    color: white;*/
+/*    font-family: 'Ruthie', cursive;*/
+/*    line-height: 2.1;*/
+/*}*/
+
+/*.text_name {*/
+/*    font-size: 300px;*/
+/*    font-family: 'Ruthie', cursive;*/
+/*}*/
+
+/*.text_date {*/
+/*    font-size: 200px;*/
+/*    font-family: 'Ruthie', cursive;*/
+
+/*}*/
+
+/*img {*/
+/*    width: 589px;*/
+/*    height: 499px;*/
+/*    margin-left: 10px;*/
+/*    margin-top: 2px;*/
+/*}*/
+
+/*.image-container:hover {*/
+/*    transform: scale(1.05);*/
+/*    box-shadow: 0 5px 10px rgb(255, 255, 255);*/
+/*}*/
+
+
+/*.image-container {*/
+/*    width: 1100px;*/
+/*    height: 500px;*/
+/*    position:relative;*/
+/*    background-color: #F5E9BE;*/
+/*    box-shadow:0 6px 20px rgb(255, 255, 255);*/
+/*    border-radius: 300px;*/
+/*    margin-left: 1000px;*/
+/*    margin-top: 100px*/
+/*}*/
+
+/*.overlay {*/
+/*    position: center;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    bottom: 0;*/
+/*    right: 0;*/
+/*    background: rgba(0, 0, 0, 0);*/
+/*}*/
+
+/*@media (max-width: 800px) {*/
+/*    .background-image-container {*/
+/*        width: 10%;*/
+/*        height: 10%;*/
+/*    }*/
+
+/*    .container {*/
+/*        width: 10%;*/
+/*        height: 10%;*/
+/*    }*/
+/*    .text_title {*/
+/*        font-size: 130px;*/
+/*        color: blue;*/
+/*    }*/
+/*    .text_name {*/
+/*        visibility: visible;*/
+/*        font-size: 180px;*/
+/*        color: pink;*/
+/*    }*/
+/*    .text_date {*/
+/*        visibility: visible;*/
+/*        font-size: 130px;*/
+/*        color: green;*/
+/*    }*/
+
+/*    .image-container {*/
+/*        width: 20%;*/
+/*        height: 20%;*/
+/*        margin-left: 1700px;*/
+/*        margin-top: 100px*/
+/*    }*/
+
+/*    img {*/
+/*        width: 20%;*/
+/*        height: 20%;*/
+/*        margin-left: 100px;*/
+/*    }*/
+/*}*/
+
+
+/*Mobile viewport*/
+
+/*.background-image-container {*/
+/*.z-index: 2;*/
+/*}*/
+
+/*.background-image-container {*/
+/*    width: 50px;*/
+/*    margin-left: 2300px;*/
+/*}*/
+/*.container{*/
+/*    background: rgba(0, 0, 0, 0.5);*/
+/*    padding:287px;*/
+/*    margin-top: 10px;*/
+/*    margin-left: 2600px;*/
+/*    border-radius: 10px;*/
+/*    box-shadow: inset -2px 2px 2px white;*/
+/*    position: relative;*/
+/*    bottom:2799px;*/
+/*}*/
+
+/*.col {*/
+/*    text-align:center;*/
+/*    !*line-height: 20px;*!*/
+
+/*}*/
+
+/*.text_title {*/
+/*    font-size: 100px;*/
+/*    color: white;*/
+/*    font-family: 'Ruthie', cursive;*/
+/*    line-height: 2.1;*/
+/*}*/
+
+/*.text_name {*/
+/*    font-size: 100px;*/
+/*    font-family: 'Ruthie', cursive;*/
+/*}*/
+
+/*.text_date {*/
+/*    font-size: 100px;*/
+/*    font-family: 'Ruthie', cursive;*/
+
+/*}*/
+
+/*img {*/
+/*    width: 300px;*/
+/*    height: 300px;*/
+/*    margin-left: 9px;*/
+/*    margin-top: 7px;*/
+/*}*/
+
+/*.image-container:hover {*/
+/*    transform: scale(1.05);*/
+/*    box-shadow: 0 5px 10px rgb(255, 255, 255);*/
+/*}*/
+
+
+/*.image-container {*/
+/*    width: 600px;*/
+/*    height: 310px;*/
+/*    position:relative;*/
+/*    background-color: #F5E9BE;*/
+/*    box-shadow:0 6px 20px rgb(255, 255, 255);*/
+/*    border-radius: 300px;*/
+/*    margin-left: 200px;*/
+/*    margin-top: 70px;*/
+/*}*/
+
+/*.overlay {*/
+/*    position: center;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    bottom: 0;*/
+/*    right: 0;*/
+/*    background: rgba(0, 0, 0, 0);*/
+/*}*/
+
+.background-image-container {
+.z-index: 2;
 }
 
-
-
+.background-image-container {
+    width: 50px;
+    margin-left: 2300px;
+}
 .container{
     background: rgba(0, 0, 0, 0.5);
     padding:287px;
-    margin-top: 700px;
-    margin-left: 3650px;
+    margin-top: 10px;
+    margin-left: 2600px;
     border-radius: 10px;
     box-shadow: inset -2px 2px 2px white;
+    position: relative;
+    bottom:2799px;
 }
 
 .col {
     text-align:center;
-    line-height: 220px;
+    /*line-height: 20px;*/
 
 }
 
 .text_title {
-    font-size: 120px;
+    font-size: 100px;
     color: white;
     font-family: 'Ruthie', cursive;
+    line-height: 2.1;
 }
 
 .text_name {
-    font-size: 200px;
+    font-size: 100px;
     font-family: 'Ruthie', cursive;
 }
 
 .text_date {
-    font-size: 120px;
+    font-size: 100px;
     font-family: 'Ruthie', cursive;
 
 }
 
 img {
-    width: 450px;
-    height: 450px;
-    margin-left: 20px;
-    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    margin-left: 9px;
+    margin-top: 7px;
 }
 
 .image-container:hover {
@@ -56,11 +250,14 @@ img {
 
 
 .image-container {
+    width: 600px;
+    height: 310px;
     position:relative;
     background-color: #F5E9BE;
-    box-shadow:0 6px 20px rgba(255, 255, 255, 0.5);
+    box-shadow:0 6px 20px rgb(255, 255, 255);
     border-radius: 300px;
-    margin-right: 40px
+    margin-left: 200px;
+    margin-top: 70px;
 }
 
 .overlay {
@@ -71,3 +268,12 @@ img {
     right: 0;
     background: rgba(0, 0, 0, 0);
 }
+
+
+/*@media screen and (min-width: 40em) {*/
+/*    .container {*/
+/*        width:100%;*/
+/*        padding:0;*/
+/*        margin:0;*/
+/*    }*/
+/*}*/

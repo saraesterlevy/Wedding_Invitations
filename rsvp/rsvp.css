@@ -1,10 +1,18 @@
-body,
-html {
-    background: url('../rsvp/Villa-woodbine4.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+/*body,*/
+/*html {*/
+/*    background: url('../rsvp/Villa-woodbine4.jpg') no-repeat center center fixed;*/
+/*    -webkit-background-size: cover;*/
+/*    -moz-background-size: cover;*/
+/*    -o-background-size: cover;*/
+/*    background-size: cover;*/
+/*}*/
+
+.image-background-container {
+    .Z-index: 2;
+}
+
+.image-background-container {
+    margin-left: 2300px;
 }
 
 h1 {
@@ -25,7 +33,6 @@ h1 {
     font-size: 200px;
 
 }
-
 
 /*text-box size*/
 .container input {
@@ -52,6 +59,7 @@ input[type="text"] {
     padding: 600px;
     border-radius: 1100px;
     box-shadow: inset -2px 2px 2px white;
+    position: relative;
 }
 
 button {
@@ -61,21 +69,26 @@ button {
 
 }
 
-/*@media only screen and (max-width: 540px) {*/
-/*    .container{*/
-/*        visibility: visible;*/
-/*    }*/
-/*    .m {*/
-/*        visibility: visible;*/
-/*    }*/
-/*    .Guest {*/
-/*        visibility: visible;*/
-/*    }*/
-/*    .Allergies {*/
-/*        visibility: visible;*/
-/*    }*/
-/*}*/
-
 .rows {
     margin-left: 400px
 }
+
+
+@media only screen and (max-width: 540px) {
+    .container{
+        visibility: visible;
+    }
+    .m {
+        visibility: visible;
+    }
+    .Guest {
+        visibility: visible;
+    }
+    .Allergies {
+        visibility: visible;
+    }
+}
+
+
+
+
