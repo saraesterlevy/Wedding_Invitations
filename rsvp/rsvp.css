@@ -54,8 +54,8 @@ input[type="text"] {
     box-shadow: inset -2px 2px 2px white;
 }
 
-button {
-    font-size: 180px;
+input[type="button"] {
+    font-size: 160px;
     margin-left: 970px;
     font-family: 'Ruthie', cursive;
 
@@ -78,4 +78,8 @@ button {
 
 .rows {
     margin-left: 400px
+}
+
+ form {
+    text-align: center;
 }
