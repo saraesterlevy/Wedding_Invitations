@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>RSVP Form</title>
@@ -43,9 +43,13 @@
         </label><br>
         </div>
         <span id="fullname"></span><br/>
-        <input type="button" id="submit_button" value="Submit" onClick="writeValues(form)" style="width: 500px; height: 190px;">
+        <input type="button" id="submit_button" value="Submit" onClick="writeValues(form)"
+               style="width: 500px; height: 190px;">
     </div>
 </form>
+<div id="poop">
+
+</div>
 <script>
     $(document).ready(function () {
         $("#submit_button").click(function () {
